@@ -1,0 +1,14 @@
+.fp-tableCell {
+	.socialmedia {
+		@include XYCenter;
+		width: 350px;
+		flex-wrap: wrap;
+
+		a {
+			svg {
+				font-size: 32px;
+				margin: 1em;
+			}
+		}
+	}
+}

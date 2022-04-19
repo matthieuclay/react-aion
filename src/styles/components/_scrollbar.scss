@@ -1,0 +1,27 @@
+/* the entire scrollbar */
+::-webkit-scrollbar {
+	width: 7.5px;
+	height: 7.5px;
+}
+
+/* the tracking area */
+::-webkit-scrollbar-track {
+	background-color: transparent;
+	border-radius: 20px;
+}
+
+/* the scroll thumb */
+::-webkit-scrollbar-thumb {
+	border-radius: 20px;
+	background-color: var(--secondary);
+
+	&:window-inactive,
+	&:-moz-window-inactive {
+		background-color: var(--secondary);
+	}
+
+	&:active,
+	&:hover {
+		background-color: var(--secondary);
+	}
+}

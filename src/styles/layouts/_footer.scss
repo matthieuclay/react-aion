@@ -1,0 +1,7 @@
+.footer {
+	.fp-tableCell {
+		padding: 0 10vw;
+
+		@include XYCenter;
+	}
+}

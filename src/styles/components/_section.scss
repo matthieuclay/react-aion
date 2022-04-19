@@ -1,0 +1,42 @@
+.fp-section {
+	.fp-tableCell {
+		width: 100%;
+		height: 100%;
+		padding: 0 10vw;
+
+		display: flex;
+		justify-content: space-evenly;
+		align-items: center;
+		align-content: center;
+
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		.section-text {
+			width: 400px;
+			height: 400px;
+			display: flex;
+			justify-content: center;
+			flex-direction: column;
+
+			h2 {
+				margin: 10px 0;
+				padding: 10px 0;
+				font-size: 32px;
+				font-weight: 700;
+			}
+			p {
+				padding: 20px 0;
+			}
+			span {
+				padding: 10px;
+			}
+		}
+
+		img {
+			height: 100%;
+			max-height: 200px;
+			width: auto;
+		}
+	}
+}

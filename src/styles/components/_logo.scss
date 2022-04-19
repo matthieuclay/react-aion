@@ -1,0 +1,8 @@
+.logo {
+	@include XYCenter;
+
+	img {
+		width: 40px;
+		height: auto;
+	}
+}

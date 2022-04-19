@@ -1,0 +1,11 @@
+#darkmode {
+	@include XYCenter;
+	width: 40px;
+	height: 40px;
+
+	background-color: transparent;
+	color: var(--secondary);
+	border: 1px solid var(--secondary);
+	border-radius: 10%;
+	cursor: pointer;
+}
